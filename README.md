@@ -1,6 +1,7 @@
 ### this is the git_test demo
 #### 状态
-1.	git log 提交日志
+1.	git log 提交日志 
+   q 退出日志状态
 2.	git status 查看本地文件更改状态 
 
 #### 添加
