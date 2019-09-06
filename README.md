@@ -1,6 +1,6 @@
 ### this is the git_test demo
 #### 状态
-1.	git log 提交日志 
+1.	git log 提交日志  
    q 退出日志状态
 2.	git status 查看本地文件更改状态 
 
@@ -8,8 +8,8 @@
 1.	git init 初始化git本地仓库
 2.	git config --global user.name ‘zet’ 初始话就要配置仓库：配置用户名
    git config --global user,email ‘834997495@qq.com’ 配置用户邮箱
-3.	git add .  \  git add index.html \ git add *.html 添加本地缓存，队列，仓库 (全部，文件名，一类)
-4.	git rm --cached index.html 取消添加文件
+3.	git add .  \  git add user/index.html \ git add src/*.html 添加本地缓存，队列，仓库 (全部，文件名，一类)
+4.	git rm --cached user/index.html 取消添加文件
 
 #### 忽略文件
 1.	添加 .gitignore文件，输入忽略类型：
@@ -19,6 +19,10 @@
 
 #### 提交
 1.	git commit -m ‘first change’ 添加提交注释
+2.
+
+#### 拉取
+1.	git pull 拉取文件
 2. git push
 
 #### 创建分支、合并分支（默认主线为master）
