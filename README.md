@@ -1,5 +1,5 @@
-## this is the git_test demo
-### 状态
+### this is the git_test demo
+#### 状态
 1.	git log 提交日志
 2.	git status 查看本地文件更改状态 
 
