@@ -26,10 +26,11 @@
 
 #### 创建分支、合并分支（默认主分支为 master）
 
-1. git branch login 创建分支 login
-2. git checkout login 切换到分支 login
-3. git checkout master 切换回主线 master
-4. git merge login 合并分支（注意：必须在 master 主线下，才能合并分支）
+1. git branch 检查本地分支，当前分支前面有'\*'号
+2. git branch dev 创建分支 dev
+3. git checkout dev 切换到分支 dev
+4. git checkout master 切换回主线 master
+5. git merge login 合并分支（注意：必须在 master 主线下，才能合并分支）
 
 #### 建立远程仓库（协同管理代码），与本地仓库连接 github(gitlab)
 
