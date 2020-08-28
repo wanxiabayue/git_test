@@ -24,25 +24,18 @@
    \*.txt 文件
    ./ignore 文件夹
 
-#### 提交
-
-1. git commit -m ‘first change’ 添加提交注释
-2.
-
-#### 拉取
-
-1. git pull 拉取文件
-2. git push
-
-#### 创建分支、合并分支（默认主线为 master）
+#### 创建分支、合并分支（默认主分支为 master）
 
 1. git branch login 创建分支 login
 2. git checkout login 切换到分支 login
 3. git checkout master 切换回主线 master
 4. git merge login 合并分支（注意：必须在 master 主线下，才能合并分支）
 
-#### 提交本地仓库到远程仓库 github
+#### 建立远程仓库（协同管理代码），与本地仓库连接 github(gitlab)
 
 1. git remote 检查远程是否有这个仓库
-2. git remote add origin https://github.com/wanxiabayue/git_test.git github 新建一个 git_test 仓库，与本地仓库链接
-3. git push -u origin master 本地仓库连上远程仓库
+2. git remote add origin https://github.com/wanxiabayue/git_test.git github 新建一个 git_test 仓库，与本地仓库关联
+3. git pull origin master 上传代码前，建议拉取一下（空仓库不用）
+4. git push -u origin master 第一次推送 master 分支的所有内容
+5. git push origin master 每次本地更改后，都可以上传（也可以 git push）
+   - git pull 多人协同管理，上传前需要先拉取
