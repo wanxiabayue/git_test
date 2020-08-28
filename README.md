@@ -30,6 +30,8 @@
 2. git remote add origin https://github.com/wanxiabayue/git_test.git github 新建一个 git_test 仓库，与本地仓库关联
 3. git pull origin master 上传代码前，建议拉取一下（空仓库不用）
 4. git push -u origin master 第一次推送 master 分支的所有内容
+   - origin 远程仓库的默认名称
+   - master 推送本地分支名（推送 dev 就是 git push origin dev）
 5. git push origin master 每次本地更改后，都可以上传（也可以 git push）
    - git pull 多人协同管理，上传前需要先拉取
 
