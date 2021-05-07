@@ -39,7 +39,7 @@
 
 1. git branch 检查本地分支，当前分支前面有'\*'号
 2. git branch dev 创建分支 dev
-3. git checkout dev 切换到分支 dev
+3. git checkout dev 切换到分支 dev(可以自己直接切换远程仓库分支)
 4. git checkout master 切换回主线 master
 5. git merge dev 合并分支（注意：必须在 master 主线下，才能合并分支）
 6. git branch -d dev 删除分支
